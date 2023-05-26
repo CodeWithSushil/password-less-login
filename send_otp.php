@@ -21,8 +21,8 @@ $_SESSION['Email']=$email;
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'rahulnand306@gmail.com';
-        $mail->Password = 'rjecdltlhrumtwkk';
+        $mail->Username = 'your@mail.com';
+        $mail->Password = 'passkey';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = 465;
 
